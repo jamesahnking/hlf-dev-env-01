@@ -1,4 +1,4 @@
-NEW REPO FOR DEV ENVIRO - OLD REPO DELELTED
+NEW REPO FOR DEV ENVIRO - OLD REPO DELETED
 
 **For Local Development Enviroment  Set Up:** 
 > <https://github.com/jamesahnking/hlf-dev-env-01/blob/master/HyperLedgerFabric_Dev_Environment_SetUp.md>
