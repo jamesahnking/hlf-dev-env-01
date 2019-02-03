@@ -1,8 +1,18 @@
-# Last Updated: December 2, 2018
+OK, just clone this repo and 
 
-# Part of the course on Hyperledger Fabric
-http://www.ACloudFan.com
-https://hyperledger.github.io/composer/installing/installing-prereqs#ubuntu
+> vagrant up
+
+If you get this error when working to connect using docker-machine
+
+```
+Checking connection to Docker...
+Error creating machine: Error checking the host: Error checking and/or regenerating the certs: There was an error validating certificates for host "127.0.0.1:2376": dial tcp 127.0.0.1:2376: connect: connection refused
+```
+
+Just Add - and the 
+
+> config.vm.network "forwarded_port", guest: 2376, host: 2376
+
 
 Vagrant commands
 ================
