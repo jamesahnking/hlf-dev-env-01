@@ -54,14 +54,23 @@ PS: If you get a permissions error, run this command
 > chmod 755 ./scripts/*.sh
 
 > Open a terminal window and cd to the root of this project
+
 > vagrant up
+
 > vagrant ssh
+
   $ ./scripts/install-prereqs.sh
+
 // Logout of vagrant
+
   $ logout
+
 > vagrant ssh
+
   $ ./scripts/install-fabric-tools.sh
+
   $ ./scripts/install-composer.sh
+
   
 
 Download Fabric (~20 min)
