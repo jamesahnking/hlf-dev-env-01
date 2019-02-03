@@ -1,7 +1,11 @@
-OK, just clone this repo and 
 
-> vagrant up
+For Local Dev Set Up steps: 
+<https://github.com/jamesahnking/hlf-dev-env-01/blob/master/HyperLedgerFabric_Dev_Environment_SetUp.md>
 
+Once you have everything set up you can clone this repo and run vagrant up it will take care of everything. 
+```
+vagrant up
+```
 If you get this error when working to connect using docker-machine
 
 ```
