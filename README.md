@@ -1,10 +1,12 @@
 
 For Local Dev Set Up steps: 
-<https://github.com/jamesahnking/hlf-dev-env-01/blob/master/HyperLedgerFabric_Dev_Environment_SetUp.md>
+> <https://github.com/jamesahnking/hlf-dev-env-01/blob/master/HyperLedgerFabric_Dev_Environment_SetUp.md>
 
 Once you have everything set up you can clone this repo and run vagrant up it will take care of everything. 
 ```
-vagrant up
+$ git clone git@github.com:jamesahnking/hlf-dev-env-01.git
+$ cd hlf-dev-env-01.git 
+$ vagrant up
 ```
 If you get this error when working to connect using docker-machine
 
@@ -13,10 +15,11 @@ Checking connection to Docker...
 Error creating machine: Error checking the host: Error checking and/or regenerating the certs: There was an error validating certificates for host "127.0.0.1:2376": dial tcp 127.0.0.1:2376: connect: connection refused
 ```
 
-Just Add - and the 
+Add the following to your Vagrantfile
 
+```
 > config.vm.network "forwarded_port", guest: 2376, host: 2376
-
+```
 
 Vagrant commands
 ================
