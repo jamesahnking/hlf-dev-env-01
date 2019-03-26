@@ -77,7 +77,8 @@ Download Fabric (~20 min)
 =========================
 Logout of Ubuntu
 > vagrant ssh
-> ./downloadFabric.sh
+  
+  $ ./downloadFabric.sh
 
 Validation
 ==========
