@@ -6,7 +6,7 @@ NEW REPO FOR DEV ENVIRO - OLD REPO DELETED
 Once you have everything set up you can clone this repo and run vagrant up it will take care of everything. 
 ```
 $ git clone git@github.com:jamesahnking/hlf-dev-env-01.git
-$ cd hlf-dev-env-01.git 
+$ cd hlf-dev-env-01
 $ vagrant up
 ```
 If you get this error when working to connect using docker-machine
