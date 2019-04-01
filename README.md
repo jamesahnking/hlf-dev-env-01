@@ -24,10 +24,10 @@ Add the following to your Vagrantfile
 
 Vagrant commands
 ================
-> vagrant up
-> vagrant ssh
-> vagrant halt
-> vagrant destroy
+- vagrant up
+- vagrant ssh
+- vagrant halt
+- vagrant destroy
 
 Windows | Mac | Linux Docker
 ============================
