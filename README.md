@@ -85,8 +85,6 @@ Validation
 You should be able to use the *docker* commands on your host machine
 > set DOCKER_HOST=tcp://localhost:2375   
 > unest DOCKER_TLS_VERIFY
-RESTART MACHINE*
 
-> docker images    // Should not fail
-
+Restart Machine**
 
