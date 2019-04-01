@@ -65,7 +65,7 @@ PS: If you get a permissions error, run this command
 
   $ logout
 
-> vagrant ssh
+> $ vagrant ssh
 
   $ ./scripts/install-fabric-tools.sh
 
@@ -76,7 +76,7 @@ PS: If you get a permissions error, run this command
 Download Fabric (~20 min)
 =========================
 Logout of Ubuntu
-> vagrant ssh
+> $ vagrant ssh
   
   $ ./downloadFabric.sh
 
