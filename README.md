@@ -87,4 +87,5 @@ You should be able to use the *docker* commands on your host machine
 > unest DOCKER_TLS_VERIFY
 
 Restart Machine**
+
 You should be able to view docker images from the HOST machine 
