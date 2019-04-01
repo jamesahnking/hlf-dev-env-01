@@ -51,13 +51,13 @@ Setup Ubuntu VM (~10 minutes first time)
 Setup Vagrant Dev Environment (~5 min)
 ======================================
 PS: If you get a permissions error, run this command
-> chmod 755 ./scripts/*.sh
+> $ chmod 755 ./scripts/*.sh
 
 > Open a terminal window and cd to the root of this project
 
-> vagrant up
+> $ vagrant up
 
-> vagrant ssh
+> $ vagrant ssh
 
   $ ./scripts/install-prereqs.sh
 
@@ -83,8 +83,8 @@ Logout of Ubuntu
 Validation
 ==========
 You should be able to use the *docker* commands on your host machine
-> set DOCKER_HOST=tcp://localhost:2375   
-> unest DOCKER_TLS_VERIFY
+> $ set DOCKER_HOST=tcp://localhost:2375   
+> $ unest DOCKER_TLS_VERIFY
 
 Restart Machine**
 
