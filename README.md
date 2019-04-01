@@ -88,4 +88,13 @@ You should be able to use the *docker* commands on your host machine
 
 Restart Machine**
 
+CreatePeerAdmin Card
+====================
+ > $ cd ~/fabric-dev-servers
+ > $ export FABRIC_VERSION=hlfv12
+ > $ ./startFabric.sh
+ > $ ./createPeerAdminCard.sh
+
+
+
 You should be able to view docker images from the HOST machine 
